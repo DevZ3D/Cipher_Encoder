@@ -1,0 +1,20 @@
+body {
+  margin: 10;
+  background: linear-gradient(to left bottom, yellow, lightblue);
+  min-height: 100vh;
+  display: grid ;
+
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color:darkgrey}
+
+
+.heading {
+  font-size: 32px;
+}
+
+.plaintext-container {
+  font-weight: bold;
+  font-size: 18px;
+}

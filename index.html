@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Caesar Cipher Encoder</title>
+    
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+
+
+ <body>
+
+  <h1>Cipher Encoder</h1>
+
+  <form>
+    <label>Plaintext:</label>
+    <textarea name='plaintext'>Plain text!</textarea>
+
+   <label>Shift:</label>
+    <input type='number' name='shift' value='3' min='1' max='26'>
+    <input type='submit' value='encrypt'>
+  </form>
+  
+  
+  
+
+  <div id='output'>
+  <label>Output:</label>
+  <textarea name='ciphertext'>cipher text!</textarea>
+  </div>
+
+<script src='index.js'></script>
+</body>
+</html>
+
