@@ -1,3 +1,8 @@
 # Cipher_Encoder
-# Cipher_Encoder
-# Cipher_Encoder
+simple cipher encoder program
+
+
+
+#Refrences
+
+
